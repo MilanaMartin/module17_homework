@@ -2,9 +2,9 @@
   "name": "module17_homework",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/func17.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/MilanaMartin/module17_homework#readme",
   "dependencies": {
-    "react": "^16.4.2",
-    "mkdirp": "^0.5.1",
-    "underscore": "^1.8.3"
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.5.0"
   }
 }
